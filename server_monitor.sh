@@ -63,7 +63,7 @@ send_alert() {
     fi
 
     MESSAGE="Subject: ⚠️ Server Alert - High Resource Usage
-To: "anubhavmalviya06@gmail.com"
+To: $ALERT_EMAIL
 
 ⚠️ Server Alert!
 
