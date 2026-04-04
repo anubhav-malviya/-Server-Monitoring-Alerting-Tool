@@ -1,0 +1,9 @@
+/var/log/server_stats.csv {
+    su root root
+    size 5M
+    rotate 5
+    compress
+    missingok
+    notifempty
+    copytruncate
+}
